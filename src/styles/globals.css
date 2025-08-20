@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-lightitalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-semibolditalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-bolditalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-extrabold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BCASans';
+  src: url('/fonts/bcasans-extrabolditalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+}
+
+.hide-scrollbar {
+  /* Hide scrollbar for IE, Edge */
+  -ms-overflow-style: none; /* IE and Edge */
+
+  /* Hide scrollbar for Firefox */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+body {
+  background-color: #f4f8fc;
+}
+
+/* .hide-underline {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+} */
